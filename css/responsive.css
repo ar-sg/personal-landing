@@ -1,0 +1,61 @@
+@media(max-width:950px){
+
+  .hero-container{
+    grid-template-columns:1fr;
+  }
+
+  .hero-left{
+    text-align:center;
+  }
+
+  .hero-left p{
+    margin:auto;
+    margin-bottom:35px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .nav-menu{
+    display:none;
+    position:absolute;
+    top:90px;
+    right:5%;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    flex-direction:column;
+    width:220px;
+  }
+
+  .nav-menu.active{
+    display:flex;
+  }
+
+  .menu-toggle{
+    display:block;
+  }
+
+  .hero-left h1{
+    font-size:50px;
+  }
+
+  .section-title h2,
+  .contact-box h2{
+    font-size:36px;
+  }
+
+  .image-box{
+    height:420px;
+  }
+
+  .contact-box{
+    padding:40px;
+  }
+
+}
